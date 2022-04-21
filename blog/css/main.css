@@ -5,3 +5,7 @@ h1{
 p{
   text-transform: uppercase;
 }
+
+img{
+  max-width: 700px;
+}
