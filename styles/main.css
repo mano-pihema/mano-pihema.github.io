@@ -93,7 +93,7 @@ image{
 }
 
 .back-img{
-  background-image: url("file://wsl%24/Ubuntu/home/mano_pihema/devacademy/Foundations/My-Blog/mano-pihema.github.io/images/bliss.jpg") ;
+  background-image: url("file:images/bliss.jpg") ;
   
   background-size: cover;
   background-repeat: no-repeat;
