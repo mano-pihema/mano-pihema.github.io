@@ -1,0 +1,18 @@
+h1{
+  background-color: darkorange;
+  text-align: center !important;
+  font-family: 'Are+You+Serious',cursive !important;
+}
+p{
+  color: aliceblue;
+  text-align: center !important;
+  font-family: 'Moo+Lah+Lah', cursive !important;
+}
+body{
+  background-color: darkblue !important;
+}
+h3{
+  color: aliceblue !important;
+  text-align: center;
+  font-family: 'Moo+Lah+Lah', cursive !important;
+}

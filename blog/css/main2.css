@@ -1,0 +1,65 @@
+h1{
+  color:chartreuse;
+  text-align: center;
+  position: relative;
+  /*left: 50;*/
+  }
+
+
+p{
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  /*left:50%;*/
+}
+
+
+
+.container{
+  max-width: 200px;
+  max-height: 200px;
+  text-align: center;
+  
+}
+/*
+#box {
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  position: relative;
+  background-color: aqua;
+  animation-name: move ;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes move {
+  0% {
+    background-color: blue;
+    top: 0%;
+    left:0%;
+  }
+  25% {
+    background-color: green;
+    top: 50%;
+    left:25%;
+  }
+  50% {
+    background-color: yellow;
+    top: 100%;
+    left: 0%;
+  }
+75%{
+top: 50%;
+left:-25%;
+}
+100%{
+top: 0%;
+left:0%;
+}
+}
+*/
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="mock-style.css" rel="stylesheet" type="text/css">
+        <title>The Tech Blog </title>
+        <link href="blog/css/Bootstrap/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        
+      <div class="container">
+          <div class="row ">
+            <div class="col-md-12 centre">
+              <h1> The difference between padding, margin and border</h1>
+            </div>
+          </div>
+
+
+          <div class="row"> <!-- top diagram-->
+              <div class="col-md-12 centre img-responsive" >  <!--added img-responsive to the div with centre and now it works!!-->
+                <img src="images/VlwVi.png" alt="margin,border,padding" > <!--img responsive ruins text align centre-->
+
+
+              </div>
+              
+            </div>
+
+          
+          <div class="row"> <!--diagram text -->
+              <div class="col-md-12 text-center ">
+                  <p> Above is a simple diagram representing an element’s margin, padding and border (which is represented by the red line.)
+                     I’ll go through each and what separates them.</p>
+              </div>
+          </div>
+           
+         
+          
+            <div class="row">
+              <div class="col-md-12">
+                <ul>
+                  <li> The <strong> padding</strong> is the area between an element’s content and the border.The padding sets the space inside the border , between the content. 
+                  Tweaking this property can be useful when making buttons where you may want to change the distance between the text of the button and the edge of the button.  </li>
+
+                 <li> The <strong> border </strong> divides the element’s padding and its margin, here it's drawn in red. </li>
+      
+                  <li> The <strong> margin </strong> is the area outside the border. The margin sets the space outside the border, this is helpful when setting the space between elements.</li>
+      
+                  
+                </ul>
+
+              </div>
+            </div>
+             
+            
+
+            <div class="row space">
+              <div class="col-md-6">
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNdWyKo" data-user="mano-pihema" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                  <span>See the Pen <a href="https://codepen.io/mano-pihema/pen/WNdWyKo">
+                  Untitled</a> by mano-pihema (<a href="https://codepen.io/mano-pihema">@mano-pihema</a>)
+                  on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+              </div>
+
+              <div class="col-md-6 ">
+                <p class="pspace">
+                  All the boxes are the same size at 200px plus a 10px <strong> border</strong>. The green one has a border as does the blue one,
+                  however the blue box as a 10px <strong> padding</strong>. 
+               </p>
+               <p class="pspace"> 
+                 So the text is spaced away from the border more than the 
+                  green box. You will also notice the blue box appears larger, this is from the padding.The purple box 
+                  has no border but it does have a <strong>margin</strong> of 20px.
+
+               </p>
+              <p class="pspace"> 
+                The margin seperates the 
+                 purple box from the other 2 boxes who have no margin and are stuck together.
+
+              </p>
+
+              </div>
+            </div> <!--end of code pen-->
+
+            <div class="row">
+            <div class="col-md-12 centre ">
+              <p class="space">
+                  If I tried an analogy, say you have a fragile wine glass you’re sending to a friend .The glass is the content. While the newspaper you stuff around it is the padding. 
+                  After a bit of gift wrap, which is the border. Lastly some bubble wrap for good measure which would be the margin.  
+                </p>
+              <img src="images/341-3412901_fragile-sticker.png" alt=" fragile" class="resize">
+                
+            </div>
+          </div>
+
+        </div><!--container end-->
+
+
+
+
+    </body>
+</html>

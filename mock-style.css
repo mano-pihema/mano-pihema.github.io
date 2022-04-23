@@ -1,0 +1,54 @@
+#div1{
+  background-color: red;
+  display: block;
+  height: 20vh;
+}
+
+.div2{
+  display: inline-block;
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+#span1{
+background-color: green;
+display: inline-block;
+width: 400px;
+}
+
+#span2{
+  text-align: center;
+  background-color:aqua;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  }
+
+  
+
+.div3{
+  background-color: aqua;
+  
+}
+.div4{
+  background-color: blueviolet;
+  height: 20vh;
+}
+.centre{
+  text-align: center;
+}
+.resize{
+  max-width: 20vw;
+}
+.space{
+  margin: 3vh;
+}
+.pspace{
+margin: 1vh;
+}
+.re-centre{
+  position: absolute;
+  left: 25%;
+}
