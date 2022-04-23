@@ -1,0 +1,156 @@
+body, html {
+  height: 100vh;
+  
+}
+
+.background {
+  /* The image used */
+  background-image: url("file://wsl%24/Ubuntu/home/mano_pihema/devacademy/Foundations/My-Blog/mano-pihema.github.io/bliss.jpg");
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .centre1 {
+  position: absolute; /* needed for make sure everything stays in the centre */
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%); /* needed to place on image */
+}
+ 
+.heading{
+  font-family: 'Ole', cursive;
+  font-size: 15em;
+  color: blueviolet;
+}
+.heading2{
+  font-family: 'Inspiration', cursive;
+  font-size: 4em;
+  color: blueviolet;
+}
+
+.at{
+  color: white;
+  text-decoration: none !important;
+}
+
+
+.textanimation{
+  animation-name: text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+
+}
+@keyframes text{
+  0%{
+    color: red;
+  }
+  33%{
+    color: cornflowerblue;
+    
+    }
+    66%{
+      color: darkorange;
+    }
+
+  100%{
+    color: gold;
+  }
+}
+
+
+.textanimation2{
+  animation-name: text2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+
+}
+@keyframes text2{
+  0%{
+    color: red;
+  }
+  33%{
+    color: rgb(116, 201, 47);
+    
+    }
+    66%{
+      color: rgb(247, 21, 228);
+    }
+
+  100%{
+    color: rgb(20, 210, 243);
+  }
+}
+image{
+  max-width: 20%;
+}
+
+.back-img{
+  background-image: url("images/bliss.jpg") ;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+}
+.icons{
+max-width: 6vw;  /*50px works well */
+max-height: 6vh;
+text-align: center;
+
+}
+.centre{
+text-align: center;
+}
+.space{
+margin-top: 20%;
+}
+
+
+
+.sun {
+  max-width: 1vw;
+  max-height: 1vh;
+  
+  
+  
+  animation-name: move ;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes move {
+  0% {
+    
+    top: 0%;
+    left:0%;
+    
+  }
+  25% {
+    
+    top: 50%;
+    left:25%;
+  }
+  50% {
+    
+    top: 100%;
+    left: 0%;
+  }
+75%{
+top: 50%;
+left:-25%;
+}
+100%{
+top: 0%;
+left:0%;
+}
+}
+
