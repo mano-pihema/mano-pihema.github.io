@@ -1,5 +1,5 @@
 body, html {
-  height: 100vh!important;
+  height: 100vh;
   
 }
 
@@ -98,6 +98,15 @@ image{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+ 
+}
+.back-img2{
+  background-image: url("../images/Back/bplDIF6.jpeg") ;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top 200px;
  
 }
 .icons{
