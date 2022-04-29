@@ -106,7 +106,7 @@ image{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: top 200px;
+ 
  
 }
 .icons{
@@ -121,7 +121,9 @@ text-align: center;
 .space{
 margin-top: 20%;
 }
-
+.rowSpace{
+margin-top: 10%;
+}
 
 
 .sun {
