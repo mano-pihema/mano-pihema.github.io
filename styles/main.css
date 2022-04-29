@@ -125,7 +125,9 @@ margin-top: 20%;
 margin-top: 10%;
 }
 
-
+.footspace{
+  margin-top: 10%;
+}
 .sun {
   max-width: 1vw;
   max-height: 1vh;
