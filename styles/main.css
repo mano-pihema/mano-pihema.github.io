@@ -162,6 +162,12 @@ margin-top: 10%;
 .footspace{
   margin-top: 10%;
 }
+
+.lightText{
+  color:aliceblue;
+}
+
+
 .sun {
   max-width: 1vw;
   max-height: 1vh;
