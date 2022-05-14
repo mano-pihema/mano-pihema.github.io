@@ -143,6 +143,33 @@ image{
  
  
 }
+.back-img5{
+  background-image: url("../images/Back/dNTJ40m.jpeg") ;
+  
+  background-size:cover ; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-attachment: scroll;
+ overflow: scroll;
+ 
+ 
+}
+
+.back-img6{
+  background-image: url("../images/Back/vJXKBcS.jpeg") ;
+  
+  background-size:cover ; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-attachment: scroll;
+ overflow: scroll;
+ 
+ 
+}
 .icons{
 max-width: 6vw;  /*50px works well */
 max-height: 6vh;
@@ -167,7 +194,10 @@ margin-top: 10%;
   color: aliceblue !important;
 }
 
-
+.update{
+ text-decoration: underline;
+ font-style: italic;
+}
 .sun {
   max-width: 1vw;
   max-height: 1vh;
