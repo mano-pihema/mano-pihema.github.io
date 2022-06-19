@@ -19,7 +19,7 @@ h3{
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: blue!important;
+    background-color: pink!important;
   }
   h3{
     text-align: left;
@@ -39,6 +39,6 @@ h3{
 
   }
   p{
-    font-size: small;
+    text-align: right;
   }
 }
