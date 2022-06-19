@@ -1,33 +1,25 @@
 h1{
   background-color: darkorange;
-  text-align: center !important;
+  text-align: center ;
   font-family: 'Are+You+Serious',cursive !important;
 }
 p{
   color: aliceblue;
-  text-align: center !important;
+  text-align: center ;
   font-family: 'Moo+Lah+Lah', cursive !important;
 }
 body{
-  background-color: darkblue 
+  background-color: darkblue !important ;
 }
 h3{
   color: aliceblue !important;
   text-align: center;
   font-family: 'Moo+Lah+Lah', cursive !important;
 }
-@media screen and (max-width: 320px) {
-  body {
-    background-color: red;
 
-  }
-  p{
-    font-size: small;
-  }
-}
 @media screen and (max-width: 768px) {
   body {
-    background-color: blue;
+    background-color: blue!important;
   }
   h3{
     text-align: left;
@@ -35,9 +27,18 @@ h3{
 }
 @media screen and (max-width: 1200px) {
   body {
-    background-color: green;
+    background-color: green!important ;
   }
   h1{
     text-align:right;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    background-color: red !important;
+
+  }
+  p{
+    font-size: small;
   }
 }
